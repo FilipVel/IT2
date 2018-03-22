@@ -10,7 +10,7 @@
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="ddlGodina" ErrorMessage="RequiredFieldValidator" InitialValue="Година"></asp:RequiredFieldValidator>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="ddlMesec" ErrorMessage="RequiredFieldValidator" InitialValue="Месец"></asp:RequiredFieldValidator>
                 </td>
-                <td rowspan="13">
+                <td rowspan="14">
                     <asp:Panel ID="Panel1" runat="server" Height="" style="margin-top: 0px">
                         <br />
                         Почитуван патнику<br />
@@ -164,6 +164,11 @@
                 <td style="width: 129px">&nbsp;</td>
                 <td colspan="3">
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" ControlToValidate="rblKlasa" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/About.aspx">КОН ЗАДАЧА 2</asp:HyperLink>
                 </td>
             </tr>
         </table>

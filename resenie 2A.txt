@@ -1,0 +1,4 @@
+1.(A-Z0-9)+(_)?\d{2,}
+2.(\+389\s2\s\d{4,4}\s\d{3,3})|(\+389\s[7][012356789]\s\d{3,3}\s\d{3,3})
+3.MultiView.ActiveIndexAt()
+  MultiView1.SetActiveView(ViewBroj);
